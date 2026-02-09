@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+*{
+  transition: background-color 0.25s ease,
+              color 0.25s ease;
+}
+
+body{
+  @apply bg-slate-100 dark:bg-slate-950;
+}
